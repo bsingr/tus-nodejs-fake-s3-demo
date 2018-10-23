@@ -1,0 +1,19 @@
+{
+  "name": "tus-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx pm2 start process.yml --no-daemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pm2": "^3.2.2",
+    "s3rver": "^2.2.6",
+    "serve": "^10.0.2",
+    "tus-js-client": "^1.5.1",
+    "tus-node-server": "^0.3.2"
+  }
+}
