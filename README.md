@@ -1,6 +1,9 @@
-# Demo of tus-upload with S3 Backend and Fake S3
+# Demo of tus-upload with S3 Backend and minio S3
 
-    # start tus server, s3 fake and client
+    # install dependencies
+    npm install
+
+    # start tus server, s3 minio and client
     npm start
 
     # open client to upload something
