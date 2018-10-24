@@ -1,4 +1,0 @@
-apps:
-  - script: s3.js
-  - script: tus.js
-  - script: serve .
